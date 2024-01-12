@@ -26,3 +26,15 @@ If you get an error you have to follow the instructions to set the main branch.
 | git init                                                     | initialize git            |
 | git remote add origin git@github.com:marcel-epp/reponame.git | add the remote repo url   |
 | git pull                                                     | get all files from github |
+
+## create a new branch
+
+| Command                    | Explanation                          |
+| -------------------------- | ------------------------------------ |
+| git switch -c <branchname> | create a new branch and switch to it |
+| git switch <branchname>    | switch branches                      |
+| git branch                 | list your branches                   |
+| git branch -a              | list all branches (local and remote) |
+| git branch -d <branchname> | delete a branch                      |
+
+![Git Basic Workflow](images/git-basics-branching-workflow.png)
