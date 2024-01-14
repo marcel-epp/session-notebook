@@ -38,4 +38,8 @@ If you get an error you have to follow the instructions to set the main branch.
 | git branch -d <branchname>      | delete a branch                              |
 | git push -u origin <branchname> | push the branch with all the files to GitHub |
 
+If you push a new branch to GitHub you have to do a " git push -u origin <branchname>" so that GitHub will create the new branch online.
+You can turn this off. And can use a "git push". In a terminal you can do a "git config --global push.autoSetupRemote true".
+More Instructions: [Git push auto](https://adamj.eu/tech/2022/10/31/git-how-to-automatically-create-upstream-branches/)
+
 ![Git Basic Workflow](images/git-basics-branching-workflow.png)
